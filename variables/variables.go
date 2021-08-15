@@ -15,6 +15,9 @@ func main(){
 
 	// constants 
 
+	// Constants cannot be declared using the := syntax.
+
+
 	const Pi = 3.14
 
 	const country = "RWANDA"
