@@ -7,8 +7,8 @@ import (
 func main(){
 	switch time.Now().Weekday() {
 	case time.Monday, time.Tuesday, time.Wednesday, time.Thursday, time.Friday:
-		fmt.Println("Today is Weekday")
+		fmt.Println("it's", time.Now().Weekday() , "Today is Weekday")
 	default:
-		fmt.Println("Today is weekend")
+		fmt.Println("it's", time.Now().Weekday() ,"Today is weekend")
 	}
 }
