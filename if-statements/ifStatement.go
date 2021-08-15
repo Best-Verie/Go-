@@ -1,16 +1,26 @@
 package main
 
-import ("fmt"
-"math")
-
-func sqrt(x float64) string{
-	if x<0{
-		return sqrt(-x) + "i"
-	}
-	return fmt.Sprint(math.Sqrt(x))
-}
-
+import ("fmt")
 func main(){
-	fmt.Println(sqrt(4))
-	fmt.Println(sqrt(-4))
+	var fnumber int = 5;
+	var snumber int = 10;
+
+	if snumber%fnumber == 0{
+		fmt.Println(snumber, "is divisible by", fnumber);
+	}else{
+		fmt.Println(snumber, "is not divisible by", fnumber);
+	}
+	
+	if snumber%2 == 0 {
+		fmt.Println(snumber, "is even");
+	}else{
+		fmt.Println(snumber, "is odd");
+	}
+	if fnumber:=5; fnumber < 0{
+		fmt.Println(fnumber, "is negative");
+	} else if fnumber > 0 {
+		fmt.Println(fnumber, "is positive");
+	}else{
+		fmt.Println(fnumber, "is zero");
+	}
 }
