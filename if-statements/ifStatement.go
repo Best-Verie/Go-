@@ -24,3 +24,6 @@ func main(){
 		fmt.Println(fnumber, "is zero");
 	}
 }
+
+
+// theres no ternary with Go
