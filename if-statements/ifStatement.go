@@ -1,4 +1,4 @@
-package main
+package ifStatements
 
 import ("fmt")
 func main(){
