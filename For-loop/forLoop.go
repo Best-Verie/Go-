@@ -1,6 +1,6 @@
 //Go has only one looping construct, the for loop.
 
-package loops
+package main
 import "fmt"
 func main(){
 	sum:= 0 
