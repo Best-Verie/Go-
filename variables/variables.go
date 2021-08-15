@@ -13,6 +13,14 @@ func main(){
 
 	fmt.Println(k,c,python,java);
 
+	// constants 
+
+	const Pi = 3.14
+
+	const country = "RWANDA"
+
+	fmt.Println("Hello",country);
+	fmt.Println("Happy", Pi, "Day")
 
 
 }
