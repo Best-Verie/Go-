@@ -8,4 +8,18 @@ func main(){
 		sum += i
 	}
 	fmt.Println("The sum is " , sum)
+
+	//infinite
+
+	// for{}
+
+	//
+
+	// for as go's while
+	total := 1
+	for total < 1000 {
+		total += total
+	}
+	fmt.Println(total)
+
 }
