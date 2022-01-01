@@ -2,4 +2,4 @@
 
 hands-on introduction to Go using annotated example programs
 
-usihng gobyexample.com/
+usihng https://gobyexample.com/
